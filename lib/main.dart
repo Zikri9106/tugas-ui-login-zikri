@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_2/login.dart';
+import 'package:flutter_application_2/navigator.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(
                   seedColor: const Color.fromARGB(255, 21, 69, 165), brightness: Brightness.dark)
               .copyWith(background: const Color.fromARGB(255, 53, 53, 53))),
-      home: const LoginPage(),
+      home: const   FirstRoute(),
     );
   }
 }
